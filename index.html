@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Result Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Student Result Management System</h1>
+
+        <form id="form">
+            <label id="ln">customer Name</label>
+            <input type="text" id="Name" placeholder="Enter Student Name">
+
+            <label>customer ID</label>
+            <input type="number" id="ID" placeholder="Enter customer id">
+
+            <label>previous meter reading</label>
+            <input type="number" id="prin" placeholder="Previous Meter Reading">
+
+            <label>current meter reading</label>
+            <input type="number" id="print" placeholder="Enter Current Meter Reading">
+
+            <button type="submit" id="calculateBtn">Calculate bill</button>
+        </form>
+        <h3 id="display"></h3>
+        <h3 id="displays"></h3>
+        <h3 id="displayst"></h3>
+        <h3 id="displaystl"></h3>
+        <h3 id="displaynb"></h3>
+        <h3 id="displaytb"></h3>
+        <hr>
+        <form id="forml">
+            <button type="submit">Show Last Customer</button>
+            <h3 id="displayln"></h3>
+            
+        </form>
+        <hr>
+        <form id="formc">
+            <button type="submit">Cancel</button>
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
